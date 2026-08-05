@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ohmium is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Ohmium International designs, manufactures and deploys modular, vertically-stackable proton exchange membrane (PEM) electrolyzer systems for green hydrogen production, alongside EPC and remote monitoring and maintenance (RM&M) services.
+
+**No public API surface.** As of 2026-08-04 Ohmium publishes no developer portal, API reference, SDK, webhook catalog or machine-readable specification. See `apis.yml` `x-coverage` for the probe evidence.
+
+- https://www.ohmium.com/
 - https://forgeglobal.com/ohmium_stock/

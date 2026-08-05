@@ -1,8 +1,15 @@
 aid: ohmium
 name: Ohmium
-description: 'Ohmium is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Ohmium International designs, manufactures and deploys modular, vertically-stackable
+  proton exchange membrane (PEM) electrolyzer systems for cost-competitive green hydrogen
+  production. Its Lotus PEM electrolyzer platform integrates power electronics, water treatment
+  and controls into skid-mounted modules for industrial, energy and mobility customers, and is
+  paired with EPC and remote monitoring and maintenance (RM&M) services. Ohmium is a hardware
+  and clean-energy engineering company: it publishes no public developer program, no API
+  reference and no machine-readable specification, and its customer-facing monitoring and
+  service portals are third-party SaaS products hosted on Ohmium subdomains behind login.'
 url: https://raw.githubusercontent.com/api-evangelist/ohmium/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/62727ad5ed2dca1929e23851/62727e583c4685117faeab2a_ohmium-webclip.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +19,14 @@ created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Green Hydrogen
+- Hydrogen
+- Electrolyzers
+- Clean Energy
+- Energy
+- Manufacturing
+- Industrial Equipment
+- Decarbonization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +35,57 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.ohmium.com/
+- type: About
+  url: https://www.ohmium.com/about-ohmium
+- type: Products
+  url: https://www.ohmium.com/products
+- type: Blog
+  url: https://www.ohmium.com/blog
+- type: PressReleases
+  url: https://www.ohmium.com/press-release
+- type: Resources
+  url: https://www.ohmium.com/resources
+- type: Support
+  url: https://help.ohmium.com/support/home
+- type: Contact
+  url: https://www.ohmium.com/contact
+- type: Careers
+  url: https://ohmium.wd12.myworkdayjobs.com/Ohmium_Careers
+- type: PrivacyPolicy
+  url: https://www.ohmium.com/privacy-policy
+- type: TermsOfService
+  url: https://www.ohmium.com/terms-and-conditions
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ohmium
+- type: YouTube
+  url: https://www.youtube.com/@ohmiuminc
+- type: CompanyProfile
   url: https://forgeglobal.com/ohmium_stock/
+- type: DomainSecurity
+  url: security/ohmium-domain-security.yml
+- type: LLMsTxt
+  url: llms/ohmium-llms.txt
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Ohmium manufactures PEM electrolyzer hardware and publishes no developer
+    program at all; the only software on its domains is third-party SaaS on custom
+    subdomains (Canary Labs Axiom at canary.ohmium.com, Freshworks at workspace.ohmium.com,
+    Freshdesk at help.ohmium.com) plus an Azure Static Web App lead-time tool whose
+    /api/* routes answer 401.
+  evidence:
+  - url: https://www.ohmium.com/openapi.json
+    status: 404
+  - url: https://www.ohmium.com/.well-known/api-catalog
+    status: 404
+  - url: https://www.ohmium.com/llms.txt
+    status: 404
+  - url: https://leadtime.ohmium.com/api/swagger.json
+    status: 401
+  checked: '2026-08-04'
