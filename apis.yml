@@ -9,6 +9,17 @@ description: 'Ohmium International designs, manufactures and deploys modular, ve
   reference and no machine-readable specification, and its customer-facing monitoring and
   service portals are third-party SaaS products hosted on Ohmium subdomains behind login.'
 url: https://raw.githubusercontent.com/api-evangelist/ohmium/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/62727ad5ed2dca1929e23851/62727e583c4685117faeab2a_ohmium-webclip.png
 x-type: company
 x-source: harvest:secondary-market
